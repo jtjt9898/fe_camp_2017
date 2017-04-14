@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<!--下面的是嵌入方式使用CSS-->
+	<style type="text/css">
+	*{
+		margin: 10;
+		paddin: 10;
+
+	}
+	html,
+	body{
+		width: 85%;
+		height: 80%;
+	}
+	body{
+		background-image: url('图片1.jpg');
+		background-repeat: no-repeat;
+		background-size: cover ;
+	}
+	.login-box{
+		position: absolute;
+		top: 20%;
+		left: 60%;
+		transform: translate(-20%,-20%);
+		background-color: rgba(255, 255, 255, .6)
+	}
+	.login-header{
+		text-align: center;
+		padding: 10px;
+	}
+		border-bottom: 3px solid #fff;
+		}
+		h2{
+			color: #3b5e88;
+		}
+		.login-body{
+			padding: 20px;
+		}
+		.form-group{
+			width: 100%;
+			text-align: center;
+			margin-bottom: 30px; 
+		}
+		label{
+			display: inline-block;
+			margin-right: 1em;
+			width: 4em;
+		}
+		input{
+			width: 250px;
+			height: 30px;
+			border: 1px solid #f3f3f3;
+			border-radius: 4px;
+			font-size: 16px;
+			text-indent: 1em;
+		}
+		button{
+			width: 337px;
+			height: 35px;
+			background-color: hsl(213, 39%, 39%);
+			border: none;
+			color: #fff;
+			font-size: 14px;
+			cursor: pointer;
+		}
+		button:hover{
+			background-color: hsl(213, 39%, 42%)
+		}
+		</style>
+	</head>
+<body>
+
+	<div class="login-box">
+		<div class="login-header">
+		<h2>智能共享充电宝</h2>
+		<h2>随时随地可充电</h2>
+
+			<h2>会员登录</h2>
+		</div>
+		<div class="login-body">
+			<form>
+				<div class="form-group">
+					<label>用户名</label>
+					<input type="text" name= "username" placeholder="请输入用户名">
+				</div>
+				<div class="form-group">
+					<label>密码</label>
+					<input type="password" name ="password" placeholder="请输入密码">
+				</div>
+				<div class="form-group">
+					<button type="submit">登录</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
